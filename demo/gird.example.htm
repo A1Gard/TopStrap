@@ -4,9 +4,9 @@
         <title>TopStrap Demo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css/topstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="../src/css/topstrap.css" />
         <!--[if lte IE 9]>
-        <script src="js/iefix.js" type="text/javascript"></script>
+        <script src="../src/js/iefix.js" type="text/javascript"></script>
         <![endif]-->
 
 
@@ -63,14 +63,14 @@
                     <div class="test grd1">1</div>
                     <div class="test grd2">2</div>
                     <div class="test grd3">3</div>
-                    <div class="test grd4">4</div>
+                    <div class="test grd4 ">4</div>
                     <div class="test grd5">5</div>
                     <div class="test grd6">6</div>
                     <div class="test grd3">3</div>
                 </div>
                 <div class="row">
                     <div class="test grd7">7</div>
-                    <div class="test grd8">8</div>
+                    <div class="test grd8 only-desktop">8 2</div>
                     <div class="test grd9">9</div>
                     <div class="test grd10">10</div>
                     <div class="test grd3">3</div>
@@ -130,6 +130,35 @@
                 </div>
 
 
+                <div style="border:1px solid black">
+                    <h1>
+                        Device info
+                    </h1>
+                    <div style="background:gold" class="only-hug">
+                        <h3>hug only</h3>
+                    </div>
+                    <div style="background: silver" class="only-desktop">
+                        <h3>desktop only</h3>
+                    </div>
+                    <div style="background:khaki" class="only-tablet">
+                        <h3>tablet only</h3>
+                    </div>
+                    <div style="background: lawngreen" class="only-mobile">
+                        <h3>mobile only</h3>
+                    </div>
+                    <div style="background:gold" class="no-hug">
+                        <h3>no hug </h3>
+                    </div>
+                    <div style="background: silver" class="no-desktop">
+                        <h3>no desktop </h3>
+                    </div>
+                    <div style="background:khaki" class="no-tablet">
+                        <h3>no tablet</h3>
+                    </div>
+                    <div style="background: lawngreen" class="no-mobile">
+                        <h3>no mobile </h3>
+                    </div>
+                </div>
             </div>
 
         </div>
