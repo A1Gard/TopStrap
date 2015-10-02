@@ -206,14 +206,16 @@ button,input,textarea,select{
     margin-right:1em;
     margin-left:1em;
 }
-.t-wrapper{
-    margin:0 auto;
+.wrapper{
+    margin-right:auto;
+    margin-left:auto;
     overflow:hidden;
     position:relative;
 }
 .std-wrapper{ /* standard topstrap width wrapper */
     max-width:1100px;
-    margin:0 auto;
+    margin-right:auto;
+    margin-left:auto;
     overflow:hidden;
     position:relative;
 }
