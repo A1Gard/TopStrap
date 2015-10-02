@@ -353,7 +353,7 @@ button,input,textarea,select{
     /*	If you need support for IE7 and lower make 
             sure the boxsizing.htc file is linked properly.
             More info here:  https://github.com/Schepp/box-sizing-polyfill */
-
+    box-sizing:border-box;
     font-size: medium;
     vertical-align: top;
 
